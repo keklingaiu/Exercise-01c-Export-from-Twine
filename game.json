@@ -1,0 +1,113 @@
+{
+  "passages": [
+    {
+      "text": "You are on the bridge of the Enterprise. Data is at Ops, Geordi is flying the ship.\n\n[[Go to the captain's ready room->Ready Room]]\n[[Go to the dining room->Dining Room]]\n[[Go to the training room->Training Room]]\n",
+      "links": [
+        {
+          "name": "Go to the captain's ready room",
+          "link": "Ready Room",
+          "pid": "2"
+        },
+        {
+          "name": "Go to the dining room",
+          "link": "Dining Room",
+          "pid": "3"
+        },
+        {
+          "name": "Go to the training room",
+          "link": "Training Room",
+          "pid": "4"
+        }
+      ],
+      "name": "Bridge",
+      "pid": "1",
+      "position": {
+        "x": "406.5",
+        "y": "173"
+      }
+    },
+    {
+      "text": "You are in the captain's ready room in the Enterprise. You may see the captain getting ready!\n\n[[Go to the Bridge->Bridge]]\n[[Go to the Dining Room->Dining Room]]\n[[Go to the Training Room->Training Room]]",
+      "links": [
+        {
+          "name": "Go to the Bridge",
+          "link": "Bridge",
+          "pid": "1"
+        },
+        {
+          "name": "Go to the Dining Room",
+          "link": "Dining Room",
+          "pid": "3"
+        },
+        {
+          "name": "Go to the Training Room",
+          "link": "Training Room",
+          "pid": "4"
+        }
+      ],
+      "name": "Ready Room",
+      "pid": "2",
+      "position": {
+        "x": "256.5",
+        "y": "323"
+      }
+    },
+    {
+      "text": "You have entered the dining room where a feast is being held! Grab a seat and chow down on some amazing food.\n\n[[Go to the Bridge->Bridge]]\n[[Go to the captains Ready Room->Ready Room]]\n[[Go to the Training Room->Training Room]]",
+      "links": [
+        {
+          "name": "Go to the Bridge",
+          "link": "Bridge",
+          "pid": "1"
+        },
+        {
+          "name": "Go to the captains Ready Room",
+          "link": "Ready Room",
+          "pid": "2"
+        },
+        {
+          "name": "Go to the Training Room",
+          "link": "Training Room",
+          "pid": "4"
+        }
+      ],
+      "name": "Dining Room",
+      "pid": "3",
+      "position": {
+        "x": "406.5",
+        "y": "323"
+      }
+    },
+    {
+      "text": "You have entered the training room! Grab a laser gun, some ammo, and suit up! Go test out your skills!\n\n[[Go to the Bridge->Bridge]]\n[[Go to the captain's Ready Room->Ready Room]]\n[[Go to the Dining Room->Dining Room]]",
+      "links": [
+        {
+          "name": "Go to the Bridge",
+          "link": "Bridge",
+          "pid": "1"
+        },
+        {
+          "name": "Go to the captain's Ready Room",
+          "link": "Ready Room",
+          "pid": "2"
+        },
+        {
+          "name": "Go to the Dining Room",
+          "link": "Dining Room",
+          "pid": "3"
+        }
+      ],
+      "name": "Training Room",
+      "pid": "4",
+      "position": {
+        "x": "556.5",
+        "y": "323"
+      }
+    }
+  ],
+  "name": "New Story",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "985DE5F3-81DA-454A-85CE-789CF4EF427D"
+}
